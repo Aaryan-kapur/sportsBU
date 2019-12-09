@@ -22,7 +22,7 @@ export default function HomeScreen() {
     <View>
       <View>
         <Header
-          centerComponent={{ text: "Sports BU", style: { color: "#fff" } }}
+          centerComponent={{ text: "Sports BU", style: { fontWeight:"bold", color: "#fff" } }}
         />
         <SliderBox images={this.state.images} />
       </View>
