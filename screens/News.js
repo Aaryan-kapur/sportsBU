@@ -1,12 +1,8 @@
 import React from "react";
 import { LinearGradient, View, Text, ScrollView } from "react-native";
-import {  ListItem, Icon } from "react-native-elements";
+import { Header, ListItem, Icon } from "react-native-elements";
 import { SliderBox } from "react-native-image-slider-box";
 import TouchableScale from "react-native-touchable-scale";
-import { Container,Header, Content, Tab, Tabs } from 'native-base';
-import Tab1 from './tab1';
-import Tab2 from './tab2';
-import Tab3 from './tab3';
 const TabIcon = props => (
   <Icon
     name="md-paper"
@@ -74,20 +70,6 @@ class News extends React.Component {
   render() {
     return (
       <View>
-          <Container>
-        <Header hasTabs />
-        <Tabs>
-          <Tab heading="Tab1">
-            <Tab1 />
-          </Tab>
-          <Tab heading="Tab2">
-            <Tab2 />
-          </Tab>
-          <Tab heading="Tab3">
-            <Tab3 />
-          </Tab>
-        </Tabs>
-      </Container>
         <View>
           <View style={{ alignItems: "center", justifyContent: "center" }}>
             <Header
